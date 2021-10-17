@@ -7,7 +7,7 @@ python -m venv <path-to-venv, e.g. 'venv'>
 
 activate new environment:
 
-source <path to environment>/bin/activate (e.g. venv/bin/activate)
+source "path to environment"/bin/activate (e.g. venv/bin/activate)
 
 install additional python packages:
 
@@ -17,11 +17,12 @@ now run script with your push_swap executable:
 
 ./test_average 5 100
 
-first numeric parameter is the quantity of numbers to sort, second parameter is
+first command line parameter is the quantity of numbers to sort, second parameter is
 number of random data-sets
 
-script stores generated numbers into file "nums" and number of operations in the
-file "test". those can be useful for debugging.
+script stores generated numbers into file "nums", number of operations in the
+file "test", and "OK" or "KO" for successful/unsuccessful sorting. those can be 
+useful for debugging.
 
 third optional parameter adds suffix to the "nums" and "test" file names, e.g.
 
