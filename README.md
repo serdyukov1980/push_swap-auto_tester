@@ -32,4 +32,4 @@ will produce "nums1" and "test1" files.
 this can be useful for running multiple instances of script parallel in multiple
 shell instances.
   
-The shell script uses linux executable name, which should be changed if necessary.
+The shell script uses linux tester executable name, which should be changed if necessary.
